@@ -1,15 +1,7 @@
-# template
+# homebrew-test-tap
 
-The template repository.
-
-## Description
-
-Template repository for developing with GitHub.
-
-## Usage
-
-N/A
+Homebrew Formulae to test.
 
 ## Related projects
 
-N/A
+- [test-goreleaser](https://github.com/tmknom/test-goreleaser)
