@@ -11,7 +11,7 @@ class TestGoreleaser < Formula
   on_macos do
     if Hardware::CPU.intel?
       url "https://github.com/tmknom/test-goreleaser/releases/download/v0.18.0/test-goreleaser_0.18.0_darwin_amd64"
-      sha256 "d4b3677eb31835f30e27a641824222dd463bc3f8936fff9f81365e9f20b1cf39"
+      sha256 "201dbeafeffd516f08ff4ee51d9e938bb73d4f12cfe234f9dc39d3fbe0210fba"
 
       def install
         bin.install "test-goreleaser_0.18.0_darwin_amd64" => "test-goreleaser"
@@ -19,7 +19,7 @@ class TestGoreleaser < Formula
     end
     if Hardware::CPU.arm?
       url "https://github.com/tmknom/test-goreleaser/releases/download/v0.18.0/test-goreleaser_0.18.0_darwin_arm64"
-      sha256 "2419d72c018548c4e5762ab2e513370bc418aa6476b88dfbf791951888c8044b"
+      sha256 "c469365d5efab485c6987a18157d8ebcdeac336f3d4b3466f2f581ece551e972"
 
       def install
         bin.install "test-goreleaser_0.18.0_darwin_arm64" => "test-goreleaser"
@@ -31,7 +31,7 @@ class TestGoreleaser < Formula
     if Hardware::CPU.intel?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/tmknom/test-goreleaser/releases/download/v0.18.0/test-goreleaser_0.18.0_linux_amd64"
-        sha256 "fcff3bc4d7c24d4745c57ff58c4c50499f4a2dff114194a5b482b178e0959171"
+        sha256 "0a0ecba91824a6bef40c11afe656e05b6e1307ff1590eee723727a432cc957ac"
 
         def install
           bin.install "test-goreleaser_0.18.0_linux_amd64" => "test-goreleaser"
@@ -41,7 +41,7 @@ class TestGoreleaser < Formula
     if Hardware::CPU.arm?
       if Hardware::CPU.is_64_bit?
         url "https://github.com/tmknom/test-goreleaser/releases/download/v0.18.0/test-goreleaser_0.18.0_linux_arm64"
-        sha256 "b560d739c3dc649762da50847dd8ace22902b5d8b70333c081cefe06da3728ca"
+        sha256 "294e1a9d40bee5d8ad38e8f2316970676cc372406d8e2e181aab0e8a3eec2e5d"
 
         def install
           bin.install "test-goreleaser_0.18.0_linux_arm64" => "test-goreleaser"
