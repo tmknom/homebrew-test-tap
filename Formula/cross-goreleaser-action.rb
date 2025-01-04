@@ -5,20 +5,20 @@
 class CrossGoreleaserAction < Formula
   desc ""
   homepage ""
-  version "0.0.1-alpha-721cc60f9cf301524d13d29ea56740bee3ea8c42"
+  version "0.0.1-alpha-58a7e6abe745e2d7bfc0572498ba42880a52d838"
   depends_on :macos
 
   if Hardware::CPU.intel?
-    url "https://github.com/tmknom/cross-goreleaser-action/releases/download/v0.0.1-alpha-721cc60f9cf301524d13d29ea56740bee3ea8c42/cross-goreleaser-action_0.0.1-alpha-721cc60f9cf301524d13d29ea56740bee3ea8c42_darwin_amd64.tar.gz"
-    sha256 "070d3da55dc559d40a1053fb5b093da1777dae3f4d255beb3749ec246bfe88d9"
+    url "https://github.com/tmknom/cross-goreleaser-action/releases/download/v0.0.1-alpha-58a7e6abe745e2d7bfc0572498ba42880a52d838/cross-goreleaser-action_0.0.1-alpha-58a7e6abe745e2d7bfc0572498ba42880a52d838_darwin_amd64.tar.gz"
+    sha256 "9cdcd2c76921860be6c36210f775fd2cc26f37fdf6984f10e60dcf174f95c262"
 
     def install
       bin.install "cross-goreleaser-action"
     end
   end
   if Hardware::CPU.arm?
-    url "https://github.com/tmknom/cross-goreleaser-action/releases/download/v0.0.1-alpha-721cc60f9cf301524d13d29ea56740bee3ea8c42/cross-goreleaser-action_0.0.1-alpha-721cc60f9cf301524d13d29ea56740bee3ea8c42_darwin_arm64.tar.gz"
-    sha256 "35ded118b92c211a09488703091156fb7a06109f5c52df40965e05606e6d4e9b"
+    url "https://github.com/tmknom/cross-goreleaser-action/releases/download/v0.0.1-alpha-58a7e6abe745e2d7bfc0572498ba42880a52d838/cross-goreleaser-action_0.0.1-alpha-58a7e6abe745e2d7bfc0572498ba42880a52d838_darwin_arm64.tar.gz"
+    sha256 "f6a5668fe4c48301732a2c5dd8dd455913fc40e9f5b6b8cbd22bcd644adf24e4"
 
     def install
       bin.install "cross-goreleaser-action"
